@@ -128,4 +128,4 @@ selector.setOnTabItemSelectedListener(new OnTabItemSelectedListener() {
 ```
 ### 部分效果图
 ![](http://oquj35wa4.bkt.clouddn.com/multiples.gif)
-![](http://oquj35wa4.bkt.clouddn.com/multiples_dialog.gif.gif)
+![](http://oquj35wa4.bkt.clouddn.com/multiples_dialog.gif)
