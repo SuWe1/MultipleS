@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="75dp">
+    <ImageView
+        android:id="@+id/itemIconImg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="visible"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:id="@+id/itemText"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/itemIconImg"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:lines="1"
+        android:gravity="center"
+        android:textColor="#FF4081"
+        android:text="湖南"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        />
+
+
+</RelativeLayout>

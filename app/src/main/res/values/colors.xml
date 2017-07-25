@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="isSelectedColor">#FF4081</color>
+    <color name="unSelectedColor">#333333</color>
+    <color name="gray_line">#ddd</color>
+    <color name="itemUnSelect">#1e1d1d</color>
+    <color name="itemIsSelect">#9f2393</color>
+    <color name="division_line">#2862a1</color>
+</resources>
