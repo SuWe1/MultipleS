@@ -1,5 +1,6 @@
 # Android联动选择控件——MultipleS
 [![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)]()
+[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://travis-ci.org/yeshuwei/MultipleS)
 [![Hex.pm](https://img.shields.io/badge/Download-1.0.0-orange.svg)]()
 
 一款Android的联动选择控件，类似京东地址选择器，内置默认地址选择器，可自定义数据源,自定义属性，自定义布局走向的控件
