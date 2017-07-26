@@ -362,7 +362,6 @@ public class MultipleSelector extends LinearLayout implements View.OnClickListen
         Log.i(TAG, "tabIndex=" + tabIndex);
     }
 
-
     /**
      * 设置网格布局边距
      * @param space
@@ -545,7 +544,7 @@ public class MultipleSelector extends LinearLayout implements View.OnClickListen
                     }else {
                         ((MultipleSelectorGridViewHolder) holder).itemIconImg.setImageResource(R.drawable.ic_no_image_bg);}
                 }else {
-                    ((MultipleSelectorGridViewHolder) holder).itemIconImg.setVisibility(GONE);}
+                    ((MultipleSelectorGridViewHolder) holder).itemIconImg.setImageResource(R.drawable.ic_no_image_bg);}
 
 
                 if (itemTextSize != -1) {
