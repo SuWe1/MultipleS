@@ -1,4 +1,6 @@
 language: android
+notifications:      # 每次构建的时候是否通知，如果不想收到通知邮箱（个人感觉邮件贼烦），那就设置false吧
+  email: true
 android:
   components:
     # Uncomment the lines below if you want to
@@ -20,5 +22,5 @@ android:
 
     # Specify at least one system image,
     # if you need to run emulator(s) during your tests
-    - sys-img-armeabi-v7a-android-19
-    - sys-img-x86-android-17
+    - sys-img-armeabi-v7a-android-22
+    - sys-img-armeabi-v7a-android-17
