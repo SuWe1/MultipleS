@@ -10,7 +10,8 @@
 - [x] 多种布局方式(Tab横向和纵向,内容列表线性和网格)
 - [x] 数据自定义，根据不同数据显示不同内容
 ### 部分效果图
-(ps:看官们忽略数据内容和图片)
+(ps:看官们忽略数据内容和图片)<br>
+
 ![](http://oquj35wa4.bkt.clouddn.com/multiples1.gif)
 ![](http://oquj35wa4.bkt.clouddn.com/multiples_dialog1.gif)<br>
 
@@ -57,6 +58,24 @@ getAllTabPosition() | 获取当前所有选中Item的对应的下标 | 无
 setSpace(int space) |设置网格布局时的边距 | 无
 
 ## 使用步骤
+
+### 添加依赖
+Project:Grade<br>
+
+```
+allprojects {
+    repositories {
+        maven { url 'https://dl.bintray.com/swy/multipleS' } //添加该行
+    }
+}
+
+```
+
+Moudle:Grade<br>
+
+```
+compile 'com.swy:multipleselector:1.0.0'
+```
 
 ### 添加权限到 AndroidManifest.xml
 
