@@ -128,8 +128,10 @@ selector.setOnTabItemSelectedListener(new OnTabItemSelectedListener() {
 ```
 ### 部分效果图
 ![](http://oquj35wa4.bkt.clouddn.com/multiples.gif)
-![](http://oquj35wa4.bkt.clouddn.com/multiples_dialog.gif)
+![](http://oquj35wa4.bkt.clouddn.com/multiples_dialog.gif)<br>
+
 ![](http://oquj35wa4.bkt.clouddn.com/multiples.change_color.gif)
-![](http://oquj35wa4.bkt.clouddn.com/multiples_tab_horizontal_list_grid.gif)
+![](http://oquj35wa4.bkt.clouddn.com/multiples_tab_horizontal_list_grid.gif)<br>
+
 ![](http://oquj35wa4.bkt.clouddn.com/multiples_tab_vertical_list_linear.gif)
 ![](http://oquj35wa4.bkt.clouddn.com/multiples_tab_vertical_list_grid.gif)
