@@ -1,10 +1,10 @@
-# Android多项联动选择控件——MultipleS
+# Android联动选择控件——MultipleS
 
 一款Android的联动选择控件，类似京东地址选择器，内置默认地址选择器，可自定义数据源,自定义属性，自定义布局走向的控件
 
 ### 特点
 - [x] Tab效果类似TabLayout **&&** 内容列表RecyclerView
-- [x] Tab和列表都是可点击的 效果类似京东地址选择
+- [x] Tab和列表都是可重复点击的 带动画效果，属性自定义
 - [x] 多种布局方式(Tab横向和纵向,内容列表线性和网格)
 - [x] 数据自定义，根据不同数据显示不同内容
 ## 介绍
@@ -35,10 +35,10 @@ itemIconResource | 选中时右侧图片 | setTtemIconResource
 userDefaultSelector(Context context,MultipleSelector selector) | 使用内置默认地址选择器 | 其他属性设置方法应该在其之前调用 
 setManager(RecyclerView.LayoutManager manager) | 设置列表布局方式 | 无
 show() | 显示视图 | 其他属性设置方法必须在其之前调用
-show(int orientation) | 设置Tab横纵走向(默认HORIZONTAL) | 同上
-setTabCount(int tabCount) | 设置Tab个数 | 只是大于两个
+show(int orientation) | 设置Tab横纵走向(默认HORIZONTAL) | 其他属性设置方法必须在其之前调用
+setTabCount(int tabCount) | 设置Tab个数 | 至少大于两个
 setDataSource(ArrayList list) | 设置数据源 | 数据源必须实现DataSourceInterface接口
-setImgSource(ArrayList list) | 设置图片数据源 | 同上
+setImgSource(ArrayList list) | 设置图片数据源 | 数据源必须实现DataSourceInterface接口
 getAllTabText() | 获取当前所有选中Item的值 | 无
 getAllTabPosition() | 获取当前所有选中Item的对应的下标 | 无
 setSpace(int space) |设置网格布局时的边距 | 无
@@ -126,12 +126,18 @@ selector.setOnTabItemSelectedListener(new OnTabItemSelectedListener() {
             }
         });
 ```
-### 部分效果图
-![](http://oquj35wa4.bkt.clouddn.com/multiples.gif)
-![](http://oquj35wa4.bkt.clouddn.com/multiples_dialog.gif)<br>
+### 部分效果图(看官们忽略数据内容和图片)
+![](http://oquj35wa4.bkt.clouddn.com/multiples1.gif)
+![](http://oquj35wa4.bkt.clouddn.com/multiples_dialog1.gif)<br>
 
-![](http://oquj35wa4.bkt.clouddn.com/multiples.change_color.gif)
-![](http://oquj35wa4.bkt.clouddn.com/multiples_tab_horizontal_list_grid.gif)<br>
+![](http://oquj35wa4.bkt.clouddn.com/multiples.change_color1.gif)
+![](http://oquj35wa4.bkt.clouddn.com/multiples_tab_horizontal_list_grid1.gif)<br>
 
-![](http://oquj35wa4.bkt.clouddn.com/multiples_tab_vertical_list_linear.gif)
-![](http://oquj35wa4.bkt.clouddn.com/multiples_tab_vertical_list_grid.gif)
+![](http://oquj35wa4.bkt.clouddn.com/multiples_tab_vertical_list_linear1.gif)
+![](http://oquj35wa4.bkt.clouddn.com/multiples_tab_vertical_list_grid1.gif)
+
+### 关于我
+大学狗一枚，欢迎联系我和我一起讨论
+[个人博客](http://www.swyiww.com/)
+[简书](http://www.jianshu.com/u/07886c430033)
+[CSDN](http://blog.csdn.net/qq_26309061)
