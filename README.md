@@ -1,4 +1,6 @@
 # Android联动选择控件——MultipleS
+[![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)]()
+[![Hex.pm](https://img.shields.io/badge/Download-1.0.0-orange.svg)]()
 
 一款Android的联动选择控件，类似京东地址选择器，内置默认地址选择器，可自定义数据源,自定义属性，自定义布局走向的控件
 
@@ -7,6 +9,17 @@
 - [x] Tab和列表都是可重复点击的 带动画效果，属性自定义
 - [x] 多种布局方式(Tab横向和纵向,内容列表线性和网格)
 - [x] 数据自定义，根据不同数据显示不同内容
+### 部分效果图
+(ps:看官们忽略数据内容和图片)
+![](http://oquj35wa4.bkt.clouddn.com/multiples1.gif)
+![](http://oquj35wa4.bkt.clouddn.com/multiples_dialog1.gif)<br>
+
+![](http://oquj35wa4.bkt.clouddn.com/multiples.change_color1.gif)
+![](http://oquj35wa4.bkt.clouddn.com/multiples_tab_horizontal_list_grid1.gif)<br>
+
+![](http://oquj35wa4.bkt.clouddn.com/multiples_tab_vertical_list_linear1.gif)
+![](http://oquj35wa4.bkt.clouddn.com/multiples_tab_vertical_list_grid1.gif)
+
 ## 介绍
 ### 顶部Tab常量
 
@@ -44,6 +57,13 @@ getAllTabPosition() | 获取当前所有选中Item的对应的下标 | 无
 setSpace(int space) |设置网格布局时的边距 | 无
 
 ## 使用步骤
+
+### 添加权限到 AndroidManifest.xml
+
+```
+<!-- if you want to load images from the internet -->
+<uses-permission android:name="android.permission.INTERNET" /> 
+```
 
 ### 布局文件中添加
 
@@ -126,18 +146,11 @@ selector.setOnTabItemSelectedListener(new OnTabItemSelectedListener() {
             }
         });
 ```
-### 部分效果图(看官们忽略数据内容和图片)
-![](http://oquj35wa4.bkt.clouddn.com/multiples1.gif)
-![](http://oquj35wa4.bkt.clouddn.com/multiples_dialog1.gif)<br>
 
-![](http://oquj35wa4.bkt.clouddn.com/multiples.change_color1.gif)
-![](http://oquj35wa4.bkt.clouddn.com/multiples_tab_horizontal_list_grid1.gif)<br>
-
-![](http://oquj35wa4.bkt.clouddn.com/multiples_tab_vertical_list_linear1.gif)
-![](http://oquj35wa4.bkt.clouddn.com/multiples_tab_vertical_list_grid1.gif)
 
 ### 关于我
 大学狗一枚，欢迎联系我和我一起讨论
-[个人博客](http://www.swyiww.com/)
-[简书](http://www.jianshu.com/u/07886c430033)
-[CSDN](http://blog.csdn.net/qq_26309061)
+
+- [个人博客](http://www.swyiww.com/)
+- [简书](http://www.jianshu.com/u/07886c430033)
+- [CSDN](http://blog.csdn.net/qq_26309061)
