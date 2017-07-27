@@ -61,16 +61,6 @@ setSpace(int space) |设置网格布局时的边距 | 无
 ## 使用步骤
 
 ### 添加依赖
-Project:Grade<br>
-
-```
-allprojects {
-    repositories {
-        maven { url 'https://dl.bintray.com/swy/multipleS' } //添加该行
-    }
-}
-
-```
 
 Moudle:Grade<br>
 
