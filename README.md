@@ -95,6 +95,8 @@ compile 'com.swy:multipleselector:1.0.0'
 
 > 所有的属性设置方法应该在show()之前调用，而setDataSource()/setImgSource()方法则应该在show()方法之后调用。
 
+> 本项目为在学期间完成。现在看来，扩展性太差！有机会会进行重构。
+
 ```
 MultipleSelector selector= (MultipleSelector) findViewById(R.id.select);//必须
 ....//其他相关属性常量设置
