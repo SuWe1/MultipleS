@@ -159,10 +159,3 @@ selector.setOnTabItemSelectedListener(new OnTabItemSelectedListener() {
         });
 ```
 
-
-### 关于我
-大学狗一枚，欢迎联系我和我一起讨论
-
-- [个人博客](http://www.swyiww.com/)
-- [简书](http://www.jianshu.com/u/07886c430033)
-- [CSDN](http://blog.csdn.net/qq_26309061)
